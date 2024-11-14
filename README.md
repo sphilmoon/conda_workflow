@@ -10,14 +10,14 @@
 
     ```bash
     # Create a new Conda environment with the specified name
-    conda create --name <ENVIRONMENT_NAME>
+    conda create --name <ENV_NAME>
     ```
 
 2. **Activating an Environment**
 
     ```bash
     # Activate the specified Conda environment
-    conda activate <ENVIRONMENT_NAME>
+    conda activate <ENV_NAME>
     ```
 
 3. **Deactivating the Current Environment**
@@ -31,7 +31,7 @@
 
     ```bash
     # Remove a Conda environment completely
-    conda remove --name <ENVIRONMENT_NAME> --all
+    conda remove --name <ENV_NAME> --all
     ```
 
 ---
